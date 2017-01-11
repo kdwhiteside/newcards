@@ -1,0 +1,33 @@
+{
+  "name": "cardgame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdwhiteside/CAH.git"
+  },
+  "keywords": [
+    "cards",
+    "players",
+    "game"
+  ],
+  "author": "Jennifer, Tiffany, Walid, Kevin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kdwhiteside/CAH/issues"
+  },
+  "homepage": "https://github.com/kdwhiteside/CAH#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "method-override": "^2.3.6",
+    "mysql": "^2.11.1",
+    "path": "^0.12.7",
+    "sequelize": "^3.24.5",
+    "socket.io": "^1.5.1"
+  }
+}
